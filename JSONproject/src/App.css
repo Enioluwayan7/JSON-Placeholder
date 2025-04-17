@@ -25,3 +25,8 @@ body {
     cursor: pointer;
     font-family: 'ralleway', sans-serif;
 }
+
+.tab-content:hover {
+    background-color: #3063ca;
+    color: #f0f1f3;
+}
