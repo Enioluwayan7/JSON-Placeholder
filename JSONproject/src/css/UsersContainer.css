@@ -1,0 +1,102 @@
+/* Grid layout for the container */
+.users-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  /* Responsive grid for medium screens and up */
+  @media (min-width: 768px) {
+    .users-grid {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+  
+  /* Loading state */
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 0;
+  }
+  
+  /* Error state */
+  .error-container {
+    text-align: center;
+    padding: 2.5rem 0;
+    color: #ef4444;
+  }
+  
+  .retry-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+  }
+  
+  .retry-button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Users list section */
+  .users-list-container {
+    grid-column: span 1;
+  }
+  
+  @media (min-width: 768px) {
+    .users-list-container {
+      grid-column: span 2;
+    }
+  }
+  
+  /* Search container */
+  .search-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 1px #3b82f6;
+  }
+  
+  /* No users found message */
+  .no-users-message {
+    text-align: center;
+    padding: 2.5rem 0;
+    color: #6b7280;
+  }
+  
+  /* User details panel */
+  .empty-details {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    background-color: rgba(243, 244, 246, 0.5);
+  }
+  
+  .empty-details-heading {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  
+  .empty-details-text {
+    margin-top: 0.5rem;
+    color: #6b7280;
+  }

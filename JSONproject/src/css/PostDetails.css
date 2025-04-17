@@ -1,0 +1,109 @@
+/* Post Details Card */
+.post-details-card {
+    position: sticky;
+    top: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e2e8f0;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .post-details-header {
+    padding: 1.25rem 1.25rem 0.75rem;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  
+  .post-details-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .post-details-title {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  /* Close button */
+  .close-button {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+  }
+  
+  .close-button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .close-icon {
+    height: 1rem;
+    width: 1rem;
+    color: #64748b;
+  }
+  
+  /* Content */
+  .post-details-content {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .post-content-section,
+  .author-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .section-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0 0 0.25rem 0;
+  }
+  
+  .post-body {
+    font-size: 0.875rem;
+    color: #64748b;
+    margin: 0;
+  }
+  
+  /* Author section */
+  .author-section {
+    border-top: 1px solid #e2e8f0;
+    padding-top: 1rem;
+  }
+  
+  .author-details {
+    font-size: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .author-details p {
+    margin: 0;
+  }
+  
+  .detail-label {
+    font-weight: 500;
+  }
+  
+  /* Footer */
+  .post-details-footer {
+    padding: 0 1.25rem 1.25rem;
+    border-top: none;
+  }
+  
+  .post-id {
+    font-size: 0.75rem;
+    color: #64748b;
+    margin: 0;
+  }
