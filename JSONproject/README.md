@@ -1,8 +1,8 @@
-# JSONPlaceholder Explorer
+# JSONPlaceholder Explorer(Interview Project)
 
 A modern React application that interacts with the JSONPlaceholder API to display and manage posts and users. This project demonstrates best practices for building React applications with data fetching, state management, and UI components.
 
-![JSONPlaceholder Explorer Screenshot](./public/JSON%20PlaceHolder%20interface.png)
+![JSONPlaceholder Explorer Screenshot](./public/screenshot/JSON-PlaceHolder%20UI.png)
 
 ## 🚀 Features
 
@@ -49,14 +49,18 @@ A modern React application that interacts with the JSONPlaceholder API to displa
    cd JSON-Placeholder-explorer
    \`\`\`
 
-2. Install dependencies:
+2. Install React framework
+    \`\`\`bash
+    npm create vite@latest json-placeholder
+
+3. Install dependencies:
    \`\`\`bash
    npm install
    # or
    yarn install
    \`\`\`
 
-3. Start the development server:
+4. Start the development server:
    \`\`\`bash
    npm run dev
    # or
@@ -83,35 +87,46 @@ This project uses the [JSONPlaceholder](https://jsonplaceholder.typicode.com/) A
 \`\`\`
 jsonplaceholder-explorer/
 ├── app/
-│   ├── Home.jsx           # Main application page
-│   └── layout.tsx         # Root layout component
+│   └── Home.jsx           # Main application page
+|   
 ├── components/
-│   ├── AddPostForm.tsx    # Form for adding new posts
-│   ├── Header.tsx         # Application header
-│   ├── Pagination.tsx     # Pagination component
-│   ├── PostDetails.tsx    # Post details view
-│   ├── PostsList.tsx      # List of posts
-│   ├── PostsContainer.tsx # Container for posts section
-│   ├── UserDetails.tsx    # User details view
-│   ├── UsersList.tsx      # List of users
-│   └── UsersContainer.tsx # Container for users section
+│   ├── AddPostForm.jsx    # Form for adding new posts
+│   ├── Header.jsx         # Application header
+│   ├── Pagination.jsx     # Pagination component
+│   ├── PostDetails.jsx    # Post details view
+│   ├── PostsList.jsx      # List of posts
+│   ├── PostsContainer.jsx # Container for posts section
+│   ├── UserDetails.jsx    # User details view
+│   ├── UsersList.jsx      # List of users
+│   └── UsersContainer.jsx # Container for users section
+├── css
+|   ├── AddPostsForm.css   # Style AddPostsForm
+|   ├── Header.css         # Style Header
+|   ├── Pagination.css     # Style Pagination
+|   ├── PostDetails.css    # Style PostDetails
+|   ├── PostContainer.css  # Style PostContainer
+|   ├── PostList.css       # Style PostList
+|   ├── UserDetail.css     # Style UserDetail
+|   ├── UserContainer.css  # Style serContainer
+|   └── UsersList.css      # Style UsersList
+|
 ├── lib/
-│   ├── api.ts             # API functions
-│   └── types.ts           # TypeScript public
-└── interface/
+│   ├── api.js             # API functions
+│   └── types.js           # TypeScript public
+└── public/
     └── screenshots/       # Application screenshots
 \`\`\`
 
 ## 🖼️ Screenshots
 
 - **Posts View**
-  ![Posts View](./screenshots/posts-view.png)
+  ![Posts View](./public/screenshot/post.png)
 
 - **User Details**
-  ![User Details](./screenshots/user-details.png)
-
+  ![User Details](./public/screenshot/user.png)
+ 
 - **Add Post Form**
-  ![Add Post Form](./screenshots/add-post-form.png)
+  ![Add Post Form](./public/screenshot/postForm.png)
 
 ## 🔮 Future Enhancements
 
@@ -123,19 +138,16 @@ jsonplaceholder-explorer/
 - Dark mode support
 - Unit and integration tests
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgements
 
 - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) for providing the free API
-- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
+- [radix/ui](https://www.radix-ui.com/primitives) for the beautiful UI components
 - [Lucide](https://lucide.dev/) for the icon set
 
 ---
 
-Created with ❤️ by [Your Name](https://github.com/yourusername)
+Created with ❤️ by [Enioluwayan Olabanji](https://github.com/Enioluwayan7)
 \`\`\`
 
 This README provides a comprehensive overview of your JSONPlaceholder Explorer project. It includes all the essential information someone would need to understand, install, and use your application.
