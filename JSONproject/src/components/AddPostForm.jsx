@@ -70,7 +70,6 @@ export default function AddPostForm({ onAddPost, users }) {
         <PlusCircle className="plus-icon" />
         {isOpen ? "Cancel" : "Add New Post"}
       </button>
-      
       <div className="collapsible-content">
         <form onSubmit={handleSubmit} className="post-form">
           <div className="form-group">
