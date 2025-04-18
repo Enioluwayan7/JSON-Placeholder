@@ -32,7 +32,7 @@ export async function createPost(post) {
   }
   // JSONPlaceholder returns the created post with an ID
   const createdPost = await response.json();
-  // For simulation purposes, we'll add a random ID since JSONPlaceholder
+  // For simulation purposes, i'll add a random ID since JSONPlaceholder
   // always returns ID 101 for new posts
   return {
     ...createdPost,
