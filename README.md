@@ -2,7 +2,7 @@
 
 A modern React application that interacts with the JSONPlaceholder API to display and manage posts and users. This project demonstrates best practices for building React applications with data fetching, state management, and UI components.
 
-![JSONPlaceholder Explorer Screenshot](./public/screenshot/JSON-PlaceHolder%20UI.png)
+![JSONPlaceholder Explorer Screenshot](./screenshot/JSON-PlaceHolder%20UI.png)
 
 ## 🚀 Features
 
@@ -120,13 +120,13 @@ jsonplaceholder-explorer/
 ## 🖼️ Screenshots
 
 - **Posts View**
-  ![Posts View](./public/screenshot/post.png)
+  ![Posts View](./screenshot/post.png)
 
 - **User Details**
-  ![User Details](./public/screenshot/user.png)
+  ![User Details](./screenshot/user.png)
  
 - **Add Post Form**
-  ![Add Post Form](./public/screenshot/postForm.png)
+  ![Add Post Form](./screenshot/postForm.png)
 
 ## 🔮 Future Enhancements
 
