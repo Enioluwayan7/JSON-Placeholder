@@ -66,7 +66,7 @@ function Pagination({ currentPage, totalPages, onPageChange }) {
     return pages;
   };
 
-  
+
   return (
     <div className="pagination-container">
       <button 
@@ -77,7 +77,6 @@ function Pagination({ currentPage, totalPages, onPageChange }) {
         <ChevronLeft className="icon" />
         <span className="sr-only">Previous page</span>
       </button>
-      
       {getPageNumbers().map((page, index) =>
         page === "..." ? (
           <span key={`ellipsis-${index}`} className="ellipsis">
